@@ -41,7 +41,7 @@ BST_Node* BST::insert(BST_Node* node, int value)
     if(node == nullptr) {
         return new BST_Node(value);
     }
-    //left subtree insertion
+    //left subtree insertion with pointer reassignment
     if(value < node->value) {
         node->leftChild = insert(node->leftChild, value);
     } 
