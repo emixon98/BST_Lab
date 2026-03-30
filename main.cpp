@@ -10,7 +10,6 @@ int main(){
     for(int i = 0; i < n; i++){
         testTree.insert(arr[i]);
     }
-    //maybe include a print statement to verify it works..
     return 0;
 }
 

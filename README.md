@@ -23,7 +23,7 @@ function findMax(root){
 Insertion Logic using a similar node structure to LinkedList assignment
 ```cpp
 #include "BinarySearch.h"
-
+//Node with both its own value and children/descendants
 BST_Node::BST_Node(int val){
     value = val;
     leftChild = nullptr;
@@ -36,7 +36,7 @@ BST::BST(){
 
 BST_Node* BST::insert(BST_Node* node, int value)
 {
-    //new node creation if empty
+    //new node creation if @ empty pos
     if(node == nullptr) {
         return new BST_Node(value);
     }
@@ -68,7 +68,7 @@ int main(){
     int n = sizeof(arr)/sizeof(arr[0]); //simplify int type size to element count
 
     BST testTree;
-
+    //call defined insertion function until all element inserted
     for(int i = 0; i < n; i++){
         testTree.insert(arr[i]);
     }
