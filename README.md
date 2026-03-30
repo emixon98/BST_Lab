@@ -2,6 +2,7 @@
 Binary Search Tree Lab CISC187 
 
 ## Task 1 BST Diagram of insertion in order of [1, 5, 9, 2, 4, 10, 6, 3, 8].
+![BST_Diagram](https://github.com/user-attachments/assets/a0c6be2d-3eb3-4de7-bb5d-04d29f57ff97)
 
 ## Task 2 Max number of steps to search for a value in a well-balanced BST of 1000 Values.
 Searching within a balanced BST is O(logN) where N is the number of elements and we use log base 2 as every comparison removes half the tree from further searching. In which case this value comes close to 9.96... or approximately 10 max steps.
