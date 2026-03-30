@@ -3,7 +3,7 @@
 int main(){
 
     int arr[] = {1, 5, 9, 2, 4, 10, 6, 3, 8};
-    int n = sizeof(arr)/sizeof(arr[0]); //simplify int type size 
+    int n = sizeof(arr)/sizeof(arr[0]); //simplify int type size to element count
 
     BST testTree;
 

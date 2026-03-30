@@ -2,17 +2,17 @@
 
 BST_Node::BST_Node(int val){
     value = val;
-    leftChild = NULL;
-    rightChild = NULL;
+    leftChild = nullptr;
+    rightChild = nullptr;
 }
 
 BST::BST(){
-    root = NULL;
+    root = nullptr;
 }
 
 BST_Node* BST::insert(BST_Node* node, int value)
 {
-    if(node == NULL) {
+    if(node == nullptr) {
         return new BST_Node(value);
     }
 
